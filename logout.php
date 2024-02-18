@@ -1,0 +1,1 @@
+<?php	session_start();	session_unset();	header('location: http://infolut1.cba.pl/Baza/');?>

@@ -1,0 +1,185 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.login_container{
+
+    display:flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height:100vh;
+
+    width:100%;
+
+    background-color: #6ba56d;
+
+}
+
+.login_box{
+
+    display:flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background:#FFF;
+
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    padding:30px;
+
+    border:0;
+
+}
+.login_header{
+    margin-bottom: 20px;
+    color: #6ba56d;
+    font-size: 30px;
+}
+.select {
+    background-color: #6e6e6e;
+    height: 36px;
+    font-size: 14px;
+    padding: 4px;
+    color: white;
+    text-transform: uppercase;
+}
+.change {
+    height: 24px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #575757;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    border:none;
+    transition: all .3s;
+}
+.change:hover{
+    background-color: #444444;
+}
+
+.add_user_section{
+
+    display:flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    max-width: 360px;
+
+    background:#FFF;
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+    padding:30px;
+
+    border:0;
+}
+.message{
+
+    margin-top: 25px;
+    font-size: 16px;
+    color: #b50000;
+
+}
+
+
+
+.password{
+
+    width:350px;
+
+    background: #f2f2f2;
+
+    padding: 15px;
+
+    font-size: 14px;
+
+    border:0;
+
+    margin: 0 0 15px;
+
+    text-align: center;
+}
+
+
+
+.checkbox_class{
+
+  font-size: 14px;
+
+  color:gray;
+
+  margin-bottom: 15px;
+
+}
+
+
+
+.submit{
+
+    text-transform: uppercase;
+
+    background-color: #6ba56d;
+
+    width: 100%;
+
+    border: 0;
+
+    padding:15px;
+
+    color: #FFFFFF;
+
+    font-size: 14px;
+
+    transition:.3s background-color;
+
+    cursor:pointer;
+
+}
+
+.submit:hover{
+
+    background-color:#4CAF50;
+
+}
+
+.login_button{
+    font-family: montserrat;
+    text-decoration: none;
+    background: #6ba56d94;
+    color: #ffffff;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    align-self: flex-end;
+    transition: all .3s;
+}
+.login_button:hover{
+    background-color: #616161bf;
+}
+
+.logo {
+    float: left;
+    margin-right: 10px; /* Opcjonalnie, dodaje odstęp od reszty zawartości */
+}
